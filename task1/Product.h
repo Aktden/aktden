@@ -5,11 +5,10 @@
 
 class Product {
 public:
-    std::string title;  
-    int id;             
+    int id;
+    std::string name;
 
-    Product(const std::string& title, int id);  
+    Product(int id, const std::string& name);
 };
 
 #endif 
-

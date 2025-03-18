@@ -1,23 +1,25 @@
 #ifndef SHOP_H
 #define SHOP_H
 
-#include <vector>
-#include <utility>
-#include "Product.h"
+#include <map>
+#include <string>
+#include <stdexcept>
 #include "ProductInfo.h"
 
 class Shop {
 public:
-    std::string title;  
-    std::vector<std::pair<Product, ProductInfo>> products;  
+    std::string name;
+    std::map<int, ProductInfo> products;
 
-    Shop(const std::string title);  
+    Shop(const std::string& name);
 
-    void addProduct(const Product product, double price, int quantity);  
-    bool buyProduct(int productId, int quantity);  
-    double getPrice(int productId);  
-    int getQuantity(int productId);  
+    void addProduct(const Product& product, int quantity, double price);
+    void removeProduct(int productId);
+    void updateProductQuantity(int productId, int quantity);
+    void updateProductPrice(int productId, double price);
+    double getProductPrice(int productId);
+    int getProductQuantity(int productId);
+    bool sellProduct(int productId, int quantity);
 };
 
 #endif 
-

@@ -6,11 +6,11 @@
 
 class ShopManager {
 public:
-    std::vector<Shop> shops;  
+    std::vector<Shop> shops;
 
-    void addShop(const Shop& shop);  
-    Shop* findShopWithLowestPrice(int productId);  
+    void addShop(const Shop& shop);
+    Shop* findCheapestShop(int productId);
+    Shop* getShopByName(const std::string& name);
 };
 
 #endif 
-

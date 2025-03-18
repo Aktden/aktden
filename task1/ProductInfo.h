@@ -1,12 +1,15 @@
 #ifndef PRODUCTINFO_H
 #define PRODUCTINFO_H
 
+#include "Product.h"
+
 class ProductInfo {
 public:
-    double price;   
-    int quantity;   
+    Product product;
+    int quantity;
+    double price;
 
-    ProductInfo(double price, int quantity);  
+    ProductInfo(const Product& product, int quantity, double price);
 };
 
 #endif 
