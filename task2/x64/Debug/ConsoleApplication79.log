@@ -1,0 +1,15 @@
+﻿  BackupJob.cpp
+  ConsoleApplication79.cpp
+  RestorePoint.cpp
+C:\Users\Денис\source\repos\ConsoleApplication79\ConsoleApplication79\ConsoleApplication79.cpp(10,23): error C2079: "f" использует не имеющую определения структуру class "std::basic_ifstream<char,std::char_traits<char>>"
+C:\Users\Денис\source\repos\ConsoleApplication79\ConsoleApplication79\ConsoleApplication79.cpp(10,24): error C2440: инициализация: невозможно преобразовать "const _Ty" в "int"
+C:\Users\Денис\source\repos\ConsoleApplication79\ConsoleApplication79\ConsoleApplication79.cpp(10,24): error C2440:         with
+C:\Users\Денис\source\repos\ConsoleApplication79\ConsoleApplication79\ConsoleApplication79.cpp(10,24): error C2440:         [
+C:\Users\Денис\source\repos\ConsoleApplication79\ConsoleApplication79\ConsoleApplication79.cpp(10,24): error C2440:             _Ty=std::string
+C:\Users\Денис\source\repos\ConsoleApplication79\ConsoleApplication79\ConsoleApplication79.cpp(10,24): error C2440:         ]
+      C:\Users\Денис\source\repos\ConsoleApplication79\ConsoleApplication79\ConsoleApplication79.cpp(10,24):
+      Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+  
+  SingleStorage.cpp
+  SplitStorage.cpp
+  Создание кода...

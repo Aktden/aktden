@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ae61a9e9-5637-44ae-82e2-dd81d242bdb3}</ProjectGuid>
-    <RootNamespace>ConsoleApplication75</RootNamespace>
+    <ProjectGuid>{6c9c920c-7b48-44cb-975e-fbafa7b47370}</ProjectGuid>
+    <RootNamespace>ConsoleApplication79</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication75.cpp" />
+    <ClCompile Include="BackupJob.cpp" />
+    <ClCompile Include="ConsoleApplication79.cpp" />
+    <ClCompile Include="RestorePoint.cpp" />
+    <ClCompile Include="SingleStorage.cpp" />
+    <ClCompile Include="SplitStorage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackupAlgorithm.h" />
+    <ClInclude Include="BackupJob.h" />
+    <ClInclude Include="RestorePoint.h" />
+    <ClInclude Include="SingleStorage.h" />
+    <ClInclude Include="SplitStorage.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
